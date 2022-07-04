@@ -3,16 +3,20 @@ module TestDatastore
 go 1.18
 
 require (
+	github.com/ipfs/go-block-format v0.0.3
+	github.com/ipfs/go-datastore v0.5.1
+	github.com/ipfs/go-ds-leveldb v0.5.0
+	github.com/ipfs/go-ipfs-blockstore v1.2.0
+	github.com/syndtr/goleveldb v1.0.0
+)
+
+require (
 	github.com/gogo/protobuf v1.2.1 // indirect
 	github.com/golang/snappy v0.0.0-20180518054509-2e65f85255db // indirect
 	github.com/google/uuid v1.1.1 // indirect
 	github.com/hashicorp/golang-lru v0.5.4 // indirect
 	github.com/ipfs/bbloom v0.0.4 // indirect
-	github.com/ipfs/go-block-format v0.0.3 // indirect
 	github.com/ipfs/go-cid v0.0.7 // indirect
-	github.com/ipfs/go-datastore v0.5.1 // indirect
-	github.com/ipfs/go-ds-leveldb v0.5.0 // indirect
-	github.com/ipfs/go-ipfs-blockstore v1.2.0 // indirect
 	github.com/ipfs/go-ipfs-ds-help v1.1.0 // indirect
 	github.com/ipfs/go-ipfs-util v0.0.2 // indirect
 	github.com/ipfs/go-ipld-format v0.3.0 // indirect
@@ -31,7 +35,6 @@ require (
 	github.com/multiformats/go-varint v0.0.5 // indirect
 	github.com/opentracing/opentracing-go v1.0.2 // indirect
 	github.com/spaolacci/murmur3 v1.1.0 // indirect
-	github.com/syndtr/goleveldb v1.0.0 // indirect
 	github.com/whyrusleeping/go-logging v0.0.0-20170515211332-0457bb6b88fc // indirect
 	go.uber.org/atomic v1.6.0 // indirect
 	golang.org/x/crypto v0.0.0-20190611184440-5c40567a22f8 // indirect

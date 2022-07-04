@@ -66,4 +66,5 @@ func TestLinkSystemLoad(t *testing.T) {
 	}
 	dagjson.Encode(n, os.Stdout)
 	fmt.Println()
+
 }
